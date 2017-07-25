@@ -11,5 +11,9 @@ extension Droplet {
         get { request in
             return try self.view.make("index.html")
         }
+        
+        get("openedworld") { request in
+            return try self.view.make("openedworld.html")
+        }
     }
 }
