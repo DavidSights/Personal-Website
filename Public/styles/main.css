@@ -25,22 +25,17 @@ color: #999999;
 	text-align: center;
 }
 
+#home_content {
+	max-width: 800px;
+	display: block;
+	align-content: center;
+	margin: 0 auto;
+}
+
 #content{
 	max-width: 800px;
 	margin: 0 auto;
 	text-align: center;
-}
-
-h1 {
-	font-family: 'Questrial', sans-serif;
-	line-height: 0.8em;
-	font-weight: normal;
-}
-
-h2 {
-	font-family: 'Anonymous Pro', sans-serif;
-	font-weight: normal;
-	font-size: 1em;
 }
 
 h1, h2 {
